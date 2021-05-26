@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
 
-  res.end('Hello World, testing the pull at github & checking now the CRONTAB!\n');
+  res.end('Hello World, testing the pull at github & checking now the CRONTAB x2!\n');
 });
 
 server.listen(port, hostname, () => {
